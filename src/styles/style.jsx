@@ -10,8 +10,8 @@ export const RowStyle = styled.div`
     margin-bottom: 2%;
     padding:3%;
     display: grid; 
-    grid-template-columns: 0.0fr 12fr 12fr !important; 
-    gap: 0px 55px; 
+    grid-template-columns: 0.0fr 11fr 12fr !important; 
+    gap: 0px 50px; 
     background-color:  #fff;
     border-radius:10px;
 
@@ -48,4 +48,27 @@ export const LabelFeatured = styled(LabelAnunc)`
 
 export const Cargo = styled.h3 `
     margin: 4% 0 2% 0;
+`
+
+export const ListaCondi = styled.ul `
+    display: flex;
+    color:hsl(180, 8%, 52%);
+`
+
+export const ItemCondi = styled.li`
+    margin-left:8%;
+`
+
+export const ItemFirst = styled(ItemCondi)`
+    margin-left:0%;
+    list-style: none;
+`
+
+export const Boton = styled.button`
+    color: hsl(180, 29%, 50%);
+    font-weight: bold;
+    border: none;
+    padding:2%;
+    margin-left: 4%;
+    margin-top: 6%;
 `

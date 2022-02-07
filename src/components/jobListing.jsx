@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Nav,RowStyle,Contenedor,Title,LabelAnunc,LabelFeatured, Cargo } from '../styles/style'
+import { Nav, RowStyle, Contenedor, Title, LabelAnunc, LabelFeatured, Cargo, ListaCondi, ItemCondi, ItemFirst,Boton } from '../styles/style'
 export default class jobListing extends Component {
-  render() {
-    return <div>
-        <Nav>
-        </Nav>
+    render() {
+        return <div>
+            <Nav>
+            </Nav>
             <Contenedor>
                 <div className="card">
                     <RowStyle>
@@ -18,25 +18,25 @@ export default class jobListing extends Component {
                             <Cargo>Senior Frontend Developer</Cargo>
 
                             <div className="lista">
-                                <ul>
-                                    <li>Id ago</li>
-                                    <li>Full Time</li>
-                                    <li>Usa only</li>
-                                </ul>
+                                <ListaCondi>
+                                    <ItemFirst>Id ago</ItemFirst>
+                                    <ItemCondi>Full Time</ItemCondi>
+                                    <ItemCondi>USA only</ItemCondi>
+                                </ListaCondi>
                             </div>
                         </div>
 
                         <div className="col">
-                            <button>Frontend</button>
-                            <button>Senior</button>
-                            <button>HTML</button>
-                            <button>CSS</button>
-                            <button>JavaScript</button>
+                            <Boton>Frontend</Boton>
+                            <Boton>Senior</Boton>
+                            <Boton>HTML</Boton>
+                            <Boton>CSS</Boton>
+                            <Boton>JavaScript</Boton>
                         </div>
 
                     </RowStyle>
                 </div>
             </Contenedor>
-    </div>;
-  }
+        </div>;
+    }
 }
