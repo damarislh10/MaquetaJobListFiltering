@@ -1,0 +1,11 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+body {
+    background-color: hsl(180, 52%, 96%);
+    font-size: 15px;
+}
