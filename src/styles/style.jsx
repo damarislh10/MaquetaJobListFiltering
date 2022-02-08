@@ -14,6 +14,7 @@ export const RowStyle = styled.div`
     gap: 0px 50px; 
     background-color:  #fff;
     border-radius:5px;
+    box-shadow: 5px 10px 5px #e8ecec;
 
 `
 
