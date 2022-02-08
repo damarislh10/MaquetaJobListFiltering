@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Nav = styled.div`
     background-color:  hsl(180, 29%, 50%);
-    padding:4% 0;
+    padding:0% 0;
     margin-bottom:4%;
 `
 
@@ -143,8 +143,13 @@ export const DivButton = styled.div`
 export const BtnFilter = styled(Boton)`
     margin-left:5%;
     margin-top: 0%;
-    padding:1%;
+    padding:0% 3% 0% 1%;
     color: hsl(180, 29%, 50%);
+    &:hover{
+        background-color:rgba(91, 164, 164,.1);
+        color:hsl(180, 29%, 50%);
+    }
+
     @media (max-width: 540px) {
         padding:2% 4%;
         margin: 3% 0 3% 5%;
@@ -156,6 +161,7 @@ export const ClearBtn = styled(BtnFilter)`
     float: right;
     background-color:#ffff;
     color: hsl(180, 8%, 52%);
+    padding:1%;
     padding-bottom:0;
     &:hover{
         background-color:#fff;
@@ -163,4 +169,20 @@ export const ClearBtn = styled(BtnFilter)`
         border-bottom: 1px solid hsl(180, 29%, 50%);
     }
 
+`
+
+export const BottonClose = styled.button`
+    background-color:hsl(180, 29%, 50%);
+    border:none;
+    margin-right:-51%;
+    margin-left:8%;
+    padding:8%;
+    cursor:pointer;
+    &:hover{
+        background-color:  hsl(180, 14%, 20%);
+    }
+`
+export const BottonCss = styled(BottonClose)`
+        margin-right:-100%;
+        padding:16%;
 `

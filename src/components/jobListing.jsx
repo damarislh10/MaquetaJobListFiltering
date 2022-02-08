@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import { Nav, RowStyle, RowNew, RowFilter, BtnFilter, Contenedor, ColFilt, Title, LabelAnunc, LabelFeatured, Cargo, ListaCondi, ItemCondi, ItemFirst, LineaHr, Boton, DivButton, ClearBtn } from '../styles/style'
+import { Nav, RowStyle, RowNew, RowFilter, BtnFilter,BottonClose,BottonCss, Contenedor, ColFilt, Title, LabelAnunc, LabelFeatured, Cargo, ListaCondi, ItemCondi, ItemFirst, LineaHr, Boton, DivButton, ClearBtn } from '../styles/style'
 export default class jobListing extends Component {
     render() {
         return <div>
             <Nav>
-                <img src="../../public/images/bg-header-desktop.svg" alt="img" />
+                <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/bg-header-desktop_dnw5s3.svg" alt="img" />
             </Nav>
             <Contenedor>
                 <RowFilter>
                     <ColFilt>
-                        <BtnFilter>Frontend</BtnFilter>
-                        <BtnFilter>CSS</BtnFilter>
-                        <BtnFilter>JavaScript</BtnFilter>
+                        <BtnFilter>Frontend<BottonClose><img src='https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/icon-remove_zhie0x.svg' alt='btnClose'/></BottonClose></BtnFilter>
+                        <BtnFilter>CSS<BottonCss><img src='https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/icon-remove_zhie0x.svg' alt='btnClose'/></BottonCss></BtnFilter>
+                        <BtnFilter>JavaScript<BottonClose><img src='https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/icon-remove_zhie0x.svg' alt='btnClose'/></BottonClose></BtnFilter>
                         <ClearBtn>Clear</ClearBtn>
                     </ColFilt>
 
