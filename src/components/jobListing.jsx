@@ -10,7 +10,7 @@ export default class jobListing extends Component {
             <RowFilter>
                     <ColFilt>
                         <BtnFilter>Frontend</BtnFilter>
-                        <BtnFilter>Css</BtnFilter>
+                        <BtnFilter>CSS</BtnFilter>
                         <BtnFilter>JavaScript</BtnFilter>
                         <ClearBtn>Clear</ClearBtn>
                     </ColFilt>

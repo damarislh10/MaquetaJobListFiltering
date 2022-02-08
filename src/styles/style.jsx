@@ -65,6 +65,11 @@ export const LabelFeatured = styled(LabelAnunc)`
 
 export const Cargo = styled.h3`
     margin: 4% 0 2% 0;
+
+    &:hover{
+        color:hsl(180, 29%, 50%);
+        cursor: pointer;
+    }
 `
 
 export const ListaCondi = styled.ul`
@@ -85,6 +90,7 @@ export const Boton = styled.button`
     color: hsl(180, 29%, 50%);
     font-weight: bold;
     border: none;
+    border-radius: 5px;
     background-color:rgba(91, 164, 164,.1);
     padding:2%;
     margin-left: 4%;
