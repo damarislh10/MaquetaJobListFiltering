@@ -11,7 +11,7 @@ export const RowStyle = styled.div`
     padding:3%;
     display: grid; 
     grid-template-columns: 0.0fr 8fr 12fr !important; 
-    gap: 0px 50px; 
+    gap: 0px 35px; 
     background-color:  #fff;
     border-radius:5px;
     box-shadow: 5px 7px 5px #e8ecec;

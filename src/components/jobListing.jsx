@@ -20,7 +20,7 @@ export default class jobListing extends Component {
 
                 <RowNew>
                     <div className="col">
-                        <img src="../../public/images/photosnap.svg" alt="photos" />
+                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/photosnap_yqfswo.svg" alt="photos" />
                     </div>
                     <div className="col">
                         <Title>Photosnap</Title>
@@ -50,7 +50,7 @@ export default class jobListing extends Component {
 
                 <RowNew>
                     <div className="col">
-                        <img src="../../public/images/manage.svg.svg" alt="manag " />
+                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/manage_b46jqd.svg" alt="manage " />
                     </div>
                     <div className="col">
                         <Title>Manage</Title>
@@ -79,7 +79,7 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="../../public/images/account.svg" alt="account " />
+                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/account_bdqa5p.svg" alt="account " />
                     </div>
                     <div className="col">
                         <Title>Account</Title>
@@ -108,7 +108,7 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="../../public/images/myhome.svg.svg" alt="miHome " />
+                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/myhome_ilx0pg.svg" alt="miHome " />
                     </div>
                     <div className="col">
                         <Title>MiHome</Title>
@@ -136,7 +136,7 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="../../public/images/myhome.svg.svg" alt="miHome " />
+                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/loop-studios_ug1kth.svg" alt="loopStudios " />
                     </div>
                     <div className="col">
                         <Title>Loop Studios</Title>
@@ -165,7 +165,7 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="../../public/images/myhome.svg.svg" alt="miHome " />
+                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343121/JobFilteringList/faceit_u1s4ex.svg" alt="facelt " />
                     </div>
                     <div className="col">
                         <Title>Facelt</Title>
@@ -192,7 +192,7 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="../../public/images/myhome.svg.svg" alt="miHome " />
+                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/shortly_q24gmr.svg" alt="shortly " />
                     </div>
                     <div className="col">
                         <Title>Shortly</Title>
@@ -220,7 +220,7 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="../../public/images/myhome.svg.svg" alt="miHome " />
+                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/insure_j1qrty.svg" alt="insure " />
                     </div>
                     <div className="col">
                         <Title>Insure</Title>
@@ -248,7 +248,7 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="../../public/images/myhome.svg.svg" alt="miHome " />
+                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/eyecam-co_kgmg1z.svg" alt="eyecam " />
                     </div>
                     <div className="col">
                         <Title>Eyecam Co.</Title>
@@ -277,7 +277,7 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="../../public/images/myhome.svg.svg" alt="miHome " />
+                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/the-air-filter-company_xn6npa.svg" alt="air " />
                     </div>
                     <div className="col">
                         <Title>The Air Filter Company</Title>
