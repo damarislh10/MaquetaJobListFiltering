@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, RowStyle, RowNew, Contenedor, Title, LabelAnunc, LabelFeatured, Cargo, ListaCondi, ItemCondi, ItemFirst, Boton, DivButton } from '../styles/style'
+import { Nav, RowStyle, RowNew,RowFilter,BtnFilter, Contenedor,ColFilt, Title, LabelAnunc, LabelFeatured, Cargo, ListaCondi, ItemCondi, ItemFirst, Boton, DivButton,ClearBtn } from '../styles/style'
 export default class jobListing extends Component {
     render() {
         return <div>
@@ -7,6 +7,17 @@ export default class jobListing extends Component {
                 <img src="../../public/images/bg-header-desktop.svg" alt="img" />
             </Nav>
             <Contenedor>
+            <RowFilter>
+                    <ColFilt>
+                        <BtnFilter>Frontend</BtnFilter>
+                        <BtnFilter>Css</BtnFilter>
+                        <BtnFilter>JavaScript</BtnFilter>
+                        <ClearBtn>Clear</ClearBtn>
+                    </ColFilt>
+
+
+                </RowFilter>
+
                 <RowNew>
                     <div className="col">
                         <img src="../../public/images/photosnap.svg" alt="photos" />

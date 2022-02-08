@@ -14,7 +14,7 @@ export const RowStyle = styled.div`
     gap: 0px 50px; 
     background-color:  #fff;
     border-radius:5px;
-    box-shadow: 5px 10px 5px #e8ecec;
+    box-shadow: 5px 7px 5px #e8ecec;
 
 `
 
@@ -28,7 +28,19 @@ export const Contenedor = styled.div`
     display:block; 
 
 `
+export const RowFilter = styled(RowStyle)`
+    position: absolute;
+    display:flex;
+    margin-top:-7%;
+    width:83%;
+    padding:1% 2%;
+    box-shadow: 0px 7px 5px #e8ecec;
 
+`
+export const ColFilt = styled.div`
+    width: 100%;
+
+`
 export const Title = styled.label`
     color: hsl(180, 29%, 50%);
     margin-right: 4%;
@@ -76,10 +88,37 @@ export const Boton = styled.button`
     background-color:rgba(91, 164, 164,.1);
     padding:2%;
     margin-left: 4%;
-    margin-top: 6%;
+    margin-top: 5%;
     cursor: pointer;
+    &:hover{
+        background-color:hsl(180, 29%, 50%);
+        color:#ffff;
+        transition:all 0.9s;
+    }
 `
 
 export const DivButton = styled.div`
     text-align: right;
+`
+
+
+export const BtnFilter = styled(Boton)`
+    margin-left:5%;
+    margin-top: 0%;
+    padding:1%;
+    color: hsl(180, 29%, 50%);
+
+`
+
+export const ClearBtn = styled(BtnFilter)`
+    float: right;
+    background-color:#ffff;
+    color: hsl(180, 8%, 52%);
+    padding-bottom:0;
+    &:hover{
+        background-color:#fff;
+        color:hsl(180, 29%, 50%);
+        border-bottom: 1px solid hsl(180, 29%, 50%);
+    }
+
 `
