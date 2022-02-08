@@ -10,18 +10,22 @@ export const RowStyle = styled.div`
     margin-bottom: 2%;
     padding:3%;
     display: grid; 
-    grid-template-columns: 0.0fr 12fr 12fr !important; 
+    grid-template-columns: 0.0fr 8fr 12fr !important; 
     gap: 0px 50px; 
     background-color:  #fff;
-    border-radius:10px;
+    border-radius:5px;
 
+`
+
+export const RowNew = styled(RowStyle)`
+    border-left: 5px solid hsl(180, 29%, 50%);
 `
 
 export const Contenedor = styled.div`
     width: 83%;
-    display:flex;
     margin: auto;
-    align-items: center;
+    display:block; 
+
 `
 
 export const Title = styled.label`
@@ -46,11 +50,11 @@ export const LabelFeatured = styled(LabelAnunc)`
     background-color: hsl(180, 14%, 20%);
 `
 
-export const Cargo = styled.h3 `
+export const Cargo = styled.h3`
     margin: 4% 0 2% 0;
 `
 
-export const ListaCondi = styled.ul `
+export const ListaCondi = styled.ul`
     display: flex;
     color:hsl(180, 8%, 52%);
 `
@@ -73,4 +77,8 @@ export const Boton = styled.button`
     margin-left: 4%;
     margin-top: 6%;
     cursor: pointer;
+`
+
+export const DivButton = styled.div`
+    text-align: right;
 `
