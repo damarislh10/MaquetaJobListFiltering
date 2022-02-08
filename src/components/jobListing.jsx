@@ -9,7 +9,7 @@ export default class jobListing extends Component {
             <Contenedor>
                 <RowNew>
                     <div className="col">
-                        <img src="../../public/images/photosnap.svg" alt="photoshop" />
+                        <img src="../../public/images/photosnap.svg" alt="photos" />
                     </div>
                     <div className="col">
                         <Title>Photosnap</Title>
@@ -39,7 +39,7 @@ export default class jobListing extends Component {
 
                 <RowNew>
                     <div className="col">
-                        <img src="../../public/images/manage.svg.svg" alt="manage " />
+                        <img src="../../public/images/manage.svg.svg" alt="manag " />
                     </div>
                     <div className="col">
                         <Title>Manage</Title>
