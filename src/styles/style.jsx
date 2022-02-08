@@ -16,6 +16,10 @@ export const RowStyle = styled.div`
     border-radius:5px;
     box-shadow: 5px 7px 5px #e8ecec;
 
+    &:last-child{
+        margin-bottom:7%;
+    }
+
 `
 
 export const RowNew = styled(RowStyle)`
