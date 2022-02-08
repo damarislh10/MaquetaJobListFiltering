@@ -19,6 +19,13 @@ export const RowStyle = styled.div`
     &:last-child{
         margin-bottom:7%;
     }
+    /* hacer el flex y wrap */
+    @media (max-width: 540px) {
+        display: flex;
+        flex-wrap:wrap;
+        margin-bottom: 10%;
+      }
+
 
 `
 
@@ -39,6 +46,12 @@ export const RowFilter = styled(RowStyle)`
     width:83%;
     padding:1% 2%;
     box-shadow: 0px 7px 5px #e8ecec;
+    @media (max-width: 540px) {
+        position: relative;
+        width:100%;
+        margin-bottom: 15%;
+      }
+
 
 `
 export const ColFilt = styled.div`
@@ -109,6 +122,11 @@ export const Boton = styled.button`
 
 export const DivButton = styled.div`
     text-align: right;
+
+    @media (max-width: 540px) {
+        text-align: left;
+      }
+
 `
 
 
@@ -117,6 +135,10 @@ export const BtnFilter = styled(Boton)`
     margin-top: 0%;
     padding:1%;
     color: hsl(180, 29%, 50%);
+    @media (max-width: 540px) {
+        padding:2% 4%;
+        margin: 3% 0 3% 5%;
+      }
 
 `
 
