@@ -10,7 +10,7 @@ export const RowStyle = styled.div`
     margin-bottom: 2%;
     padding:3%;
     display: grid; 
-    grid-template-columns: 0.0fr 11fr 12fr !important; 
+    grid-template-columns: 0.0fr 12fr 12fr !important; 
     gap: 0px 50px; 
     background-color:  #fff;
     border-radius:10px;
@@ -18,7 +18,7 @@ export const RowStyle = styled.div`
 `
 
 export const Contenedor = styled.div`
-    width: 80%;
+    width: 83%;
     display:flex;
     margin: auto;
     align-items: center;
@@ -68,7 +68,9 @@ export const Boton = styled.button`
     color: hsl(180, 29%, 50%);
     font-weight: bold;
     border: none;
+    background-color:rgba(91, 164, 164,.1);
     padding:2%;
     margin-left: 4%;
     margin-top: 6%;
+    cursor: pointer;
 `
