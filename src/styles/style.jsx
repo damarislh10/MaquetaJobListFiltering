@@ -19,11 +19,12 @@ export const RowStyle = styled.div`
     &:last-child{
         margin-bottom:7%;
     }
-    /* hacer el flex y wrap */
     @media (max-width: 540px) {
         display: flex;
         flex-wrap:wrap;
         margin-bottom: 10%;
+        padding-left: 6%;
+        padding-right: 4%;
       }
 
 
@@ -103,6 +104,16 @@ export const ItemFirst = styled(ItemCondi)`
     list-style: none;
 `
 
+export const LineaHr = styled.hr`
+    display:none;
+
+    @media (max-width: 540px) {
+        display:block;
+        margin-top:6%;
+        width: 70vw;
+      }
+`
+
 export const Boton = styled.button`
     color: hsl(180, 29%, 50%);
     font-weight: bold;
@@ -126,7 +137,6 @@ export const DivButton = styled.div`
     @media (max-width: 540px) {
         text-align: left;
       }
-
 `
 
 

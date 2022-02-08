@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, RowStyle, RowNew,RowFilter,BtnFilter, Contenedor,ColFilt, Title, LabelAnunc, LabelFeatured, Cargo, ListaCondi, ItemCondi, ItemFirst, Boton, DivButton,ClearBtn } from '../styles/style'
+import { Nav, RowStyle, RowNew, RowFilter, BtnFilter, Contenedor, ColFilt, Title, LabelAnunc, LabelFeatured, Cargo, ListaCondi, ItemCondi, ItemFirst, LineaHr, Boton, DivButton, ClearBtn } from '../styles/style'
 export default class jobListing extends Component {
     render() {
         return <div>
@@ -7,7 +7,7 @@ export default class jobListing extends Component {
                 <img src="../../public/images/bg-header-desktop.svg" alt="img" />
             </Nav>
             <Contenedor>
-            <RowFilter>
+                <RowFilter>
                     <ColFilt>
                         <BtnFilter>Frontend</BtnFilter>
                         <BtnFilter>CSS</BtnFilter>
@@ -35,8 +35,8 @@ export default class jobListing extends Component {
                                 <ItemCondi>USA only</ItemCondi>
                             </ListaCondi>
                         </div>
+                        <LineaHr></LineaHr>
                     </div>
-
                     <DivButton>
                         <Boton>Frontend</Boton>
                         <Boton>Senior</Boton>
@@ -65,6 +65,7 @@ export default class jobListing extends Component {
                                 <ItemCondi>Remote</ItemCondi>
                             </ListaCondi>
                         </div>
+                        <LineaHr></LineaHr>
                     </div>
 
                     <DivButton>
@@ -92,6 +93,7 @@ export default class jobListing extends Component {
                                 <ItemCondi>USA only</ItemCondi>
                             </ListaCondi>
                         </div>
+                        <LineaHr></LineaHr>
                     </div>
 
                     <DivButton>
@@ -119,6 +121,7 @@ export default class jobListing extends Component {
                                 <ItemCondi>USA only</ItemCondi>
                             </ListaCondi>
                         </div>
+                        <LineaHr></LineaHr>
                     </div>
 
                     <DivButton>
@@ -146,6 +149,7 @@ export default class jobListing extends Component {
                                 <ItemCondi>Worldwide</ItemCondi>
                             </ListaCondi>
                         </div>
+                        <LineaHr></LineaHr>
                     </div>
 
                     <DivButton>
@@ -174,6 +178,7 @@ export default class jobListing extends Component {
                                 <ItemCondi>Uk only</ItemCondi>
                             </ListaCondi>
                         </div>
+                        <LineaHr></LineaHr>
                     </div>
 
                     <DivButton>
@@ -200,6 +205,7 @@ export default class jobListing extends Component {
                                 <ItemCondi>Worldwide</ItemCondi>
                             </ListaCondi>
                         </div>
+                        <LineaHr></LineaHr>
                     </div>
 
                     <DivButton>
@@ -227,6 +233,7 @@ export default class jobListing extends Component {
                                 <ItemCondi>USA only</ItemCondi>
                             </ListaCondi>
                         </div>
+                        <LineaHr></LineaHr>
                     </div>
 
                     <DivButton>
@@ -254,6 +261,7 @@ export default class jobListing extends Component {
                                 <ItemCondi>Worldwide</ItemCondi>
                             </ListaCondi>
                         </div>
+                        <LineaHr></LineaHr>
                     </div>
 
                     <DivButton>
@@ -282,6 +290,7 @@ export default class jobListing extends Component {
                                 <ItemCondi>Worldwide</ItemCondi>
                             </ListaCondi>
                         </div>
+                        <LineaHr></LineaHr>
                     </div>
 
                     <DivButton>
