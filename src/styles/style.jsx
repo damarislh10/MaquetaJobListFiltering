@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Nav = styled.div`
     background-color:  hsl(180, 29%, 50%);
-    padding:0% 0;
     margin-bottom:4%;
 `
 
@@ -22,14 +21,22 @@ export const RowStyle = styled.div`
     @media (max-width: 540px) {
         display: flex;
         flex-wrap:wrap;
-        margin-bottom: 10%;
+        margin-bottom: 17%;
         padding-left: 6%;
         padding-right: 4%;
       }
 
 
 `
+export const Imagen = styled.img`
 
+@media (max-width: 540px) {
+    width: 55px;
+    position: absolute;
+    margin-top:-12%;
+
+}
+`
 export const RowNew = styled(RowStyle)`
     border-left: 5px solid hsl(180, 29%, 50%);
 `
@@ -59,11 +66,19 @@ export const ColFilt = styled.div`
     width: 100%;
 
 `
+export const ColText = styled.div`
+    @media (max-width: 540px) {
+    margin-top: 10%;
+    }
+
+`
 export const Title = styled.label`
     color: hsl(180, 29%, 50%);
     margin-right: 4%;
     font-weight: bold;
+
 `
+
 
 export const LabelAnunc = styled.label`
     color:#ffff;
@@ -167,6 +182,7 @@ export const ClearBtn = styled(BtnFilter)`
         background-color:#fff;
         color:hsl(180, 29%, 50%);
         border-bottom: 1px solid hsl(180, 29%, 50%);
+        border-radius:0;
     }
 
 `
@@ -175,8 +191,9 @@ export const BottonClose = styled.button`
     background-color:hsl(180, 29%, 50%);
     border:none;
     margin-right:-51%;
-    margin-left:8%;
-    padding:8%;
+    margin-left:10%;
+    padding:9%;
+    border-radius: 0px 5px 5px 0px; 
     cursor:pointer;
     &:hover{
         background-color:  hsl(180, 14%, 20%);

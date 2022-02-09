@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, RowStyle, RowNew, RowFilter, BtnFilter,BottonClose,BottonCss, Contenedor, ColFilt, Title, LabelAnunc, LabelFeatured, Cargo, ListaCondi, ItemCondi, ItemFirst, LineaHr, Boton, DivButton, ClearBtn } from '../styles/style'
+import { Nav, RowStyle, RowNew, RowFilter, BtnFilter,BottonClose,BottonCss, Contenedor,Imagen, ColFilt, ColText,Title, LabelAnunc, LabelFeatured, Cargo, ListaCondi, ItemCondi, ItemFirst, LineaHr, Boton, DivButton, ClearBtn } from '../styles/style'
 export default class jobListing extends Component {
     render() {
         return <div>
@@ -20,9 +20,9 @@ export default class jobListing extends Component {
 
                 <RowNew>
                     <div className="col">
-                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/photosnap_yqfswo.svg" alt="photos" />
+                        <Imagen src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/photosnap_yqfswo.svg" alt="photos" />
                     </div>
-                    <div className="col">
+                    <ColText>
                         <Title>Photosnap</Title>
                         <LabelAnunc>NEW!</LabelAnunc>
                         <LabelFeatured>FEATURED</LabelFeatured>
@@ -36,7 +36,7 @@ export default class jobListing extends Component {
                             </ListaCondi>
                         </div>
                         <LineaHr></LineaHr>
-                    </div>
+                    </ColText>
                     <DivButton>
                         <Boton>Frontend</Boton>
                         <Boton>Senior</Boton>
@@ -50,9 +50,9 @@ export default class jobListing extends Component {
 
                 <RowNew>
                     <div className="col">
-                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/manage_b46jqd.svg" alt="manage " />
+                        <Imagen src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/manage_b46jqd.svg" alt="manage " />
                     </div>
-                    <div className="col">
+                    <ColText>
                         <Title>Manage</Title>
                         <LabelAnunc>NEW!</LabelAnunc>
                         <LabelFeatured>FEATURED</LabelFeatured>
@@ -66,7 +66,7 @@ export default class jobListing extends Component {
                             </ListaCondi>
                         </div>
                         <LineaHr></LineaHr>
-                    </div>
+                    </ColText>
 
                     <DivButton>
                         <Boton>Fullstack</Boton>
@@ -79,9 +79,9 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/account_bdqa5p.svg" alt="account " />
+                        <Imagen src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/account_bdqa5p.svg" alt="account " />
                     </div>
-                    <div className="col">
+                    <ColText>
                         <Title>Account</Title>
                         <LabelAnunc>NEW!</LabelAnunc>
                         <Cargo>Junior Frontend Developer</Cargo>
@@ -94,7 +94,7 @@ export default class jobListing extends Component {
                             </ListaCondi>
                         </div>
                         <LineaHr></LineaHr>
-                    </div>
+                    </ColText>
 
                     <DivButton>
                         <Boton>Frontend</Boton>
@@ -108,9 +108,9 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/myhome_ilx0pg.svg" alt="miHome " />
+                        <Imagen src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/myhome_ilx0pg.svg" alt="miHome " />
                     </div>
-                    <div className="col">
+                    <ColText>
                         <Title>MiHome</Title>
                         <Cargo>Junior Frontend Developer</Cargo>
 
@@ -122,7 +122,7 @@ export default class jobListing extends Component {
                             </ListaCondi>
                         </div>
                         <LineaHr></LineaHr>
-                    </div>
+                    </ColText>
 
                     <DivButton>
                         <Boton>Frontend</Boton>
@@ -136,9 +136,9 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/loop-studios_ug1kth.svg" alt="loopStudios " />
+                        <Imagen src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/loop-studios_ug1kth.svg" alt="loopStudios " />
                     </div>
-                    <div className="col">
+                    <ColText>
                         <Title>Loop Studios</Title>
                         <Cargo>Software Engineer</Cargo>
 
@@ -150,7 +150,7 @@ export default class jobListing extends Component {
                             </ListaCondi>
                         </div>
                         <LineaHr></LineaHr>
-                    </div>
+                    </ColText>
 
                     <DivButton>
                         <Boton>Fullstack</Boton>
@@ -165,9 +165,9 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343121/JobFilteringList/faceit_u1s4ex.svg" alt="facelt " />
+                        <Imagen src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343121/JobFilteringList/faceit_u1s4ex.svg" alt="facelt " />
                     </div>
-                    <div className="col">
+                    <ColText>
                         <Title>Facelt</Title>
                         <Cargo>Junior Backend Developer</Cargo>
 
@@ -179,7 +179,7 @@ export default class jobListing extends Component {
                             </ListaCondi>
                         </div>
                         <LineaHr></LineaHr>
-                    </div>
+                    </ColText>
 
                     <DivButton>
                         <Boton>Backend</Boton>
@@ -192,9 +192,9 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/shortly_q24gmr.svg" alt="shortly " />
+                        <Imagen src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/shortly_q24gmr.svg" alt="shortly " />
                     </div>
-                    <div className="col">
+                    <ColText>
                         <Title>Shortly</Title>
                         <Cargo>Junior Developer</Cargo>
 
@@ -206,7 +206,7 @@ export default class jobListing extends Component {
                             </ListaCondi>
                         </div>
                         <LineaHr></LineaHr>
-                    </div>
+                    </ColText>
 
                     <DivButton>
                         <Boton>Frontend</Boton>
@@ -220,9 +220,9 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/insure_j1qrty.svg" alt="insure " />
+                        <Imagen src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343118/JobFilteringList/insure_j1qrty.svg" alt="insure " />
                     </div>
-                    <div className="col">
+                    <ColText>
                         <Title>Insure</Title>
                         <Cargo>Junior Frontend Developer</Cargo>
 
@@ -234,7 +234,7 @@ export default class jobListing extends Component {
                             </ListaCondi>
                         </div>
                         <LineaHr></LineaHr>
-                    </div>
+                    </ColText>
 
                     <DivButton>
                         <Boton>Frontend</Boton>
@@ -248,9 +248,9 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/eyecam-co_kgmg1z.svg" alt="eyecam " />
+                        <Imagen src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/eyecam-co_kgmg1z.svg" alt="eyecam " />
                     </div>
-                    <div className="col">
+                    <ColText>
                         <Title>Eyecam Co.</Title>
                         <Cargo>Full stack Engineer</Cargo>
 
@@ -262,7 +262,7 @@ export default class jobListing extends Component {
                             </ListaCondi>
                         </div>
                         <LineaHr></LineaHr>
-                    </div>
+                    </ColText>
 
                     <DivButton>
                         <Boton>Fullstack</Boton>
@@ -277,9 +277,9 @@ export default class jobListing extends Component {
 
                 <RowStyle>
                     <div className="col">
-                        <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/the-air-filter-company_xn6npa.svg" alt="air " />
+                        <Imagen src="https://res.cloudinary.com/df90q7vvj/image/upload/v1644343120/JobFilteringList/the-air-filter-company_xn6npa.svg" alt="air " />
                     </div>
-                    <div className="col">
+                    <ColText>
                         <Title>The Air Filter Company</Title>
                         <Cargo>Front-end Dev</Cargo>
 
@@ -291,7 +291,7 @@ export default class jobListing extends Component {
                             </ListaCondi>
                         </div>
                         <LineaHr></LineaHr>
-                    </div>
+                    </ColText>
 
                     <DivButton>
                         <Boton>Frontend</Boton>
