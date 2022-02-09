@@ -5,6 +5,21 @@ export const Nav = styled.div`
     margin-bottom:4%;
 `
 
+export const NavImg = styled.img`
+    width:100%;
+    @media (max-width: 540px) {
+      display:none;
+      }
+`
+export const NavImgMobile = styled.img`
+    display:none;
+    width:100%;
+    @media (max-width: 540px) {
+      display:block;
+      }
+`
+
+
 export const RowStyle = styled.div`
     margin-bottom: 2%;
     padding:3%;
@@ -33,8 +48,11 @@ export const Imagen = styled.img`
 @media (max-width: 540px) {
     width: 55px;
     position: absolute;
-    margin-top:-12%;
+    margin-top:-11%;
 
+}
+@media (max-width:280px) {
+    width: 40px;
 }
 `
 export const RowNew = styled(RowStyle)`
@@ -46,6 +64,14 @@ export const Contenedor = styled.div`
     margin: auto;
     display:block; 
 
+
+
+`
+
+export const ContenedorAll = styled.div`
+    @media (max-width: 912px) {
+        margin: auto;
+      }
 `
 export const RowFilter = styled(RowStyle)`
     position: absolute;
@@ -58,6 +84,7 @@ export const RowFilter = styled(RowStyle)`
         position: relative;
         width:100%;
         margin-bottom: 15%;
+        padding-right: 8%;
       }
 
 
@@ -166,10 +193,18 @@ export const BtnFilter = styled(Boton)`
     }
 
     @media (max-width: 540px) {
-        padding:2% 4%;
-        margin: 3% 0 3% 5%;
+        padding:0% 4%;
+        margin: 3% 0 3% 12%;
+        &:first-child {
+            margin: 3% 0 3% 5%;
+        }
       }
 
+`
+export const BtnLast = styled(BtnFilter)`
+        @media (max-width: 540px) {
+            margin: 3% 0 3% 5%;
+        }
 `
 
 export const ClearBtn = styled(BtnFilter)`
